@@ -1,0 +1,11 @@
+{
+  "name": "auto-git-workflow",
+  "version": "1.0.0",
+  "description": "git auto work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "young.zhou",
+  "license": "ISC"
+}
