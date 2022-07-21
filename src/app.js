@@ -6,7 +6,7 @@ const config = require('../config/index');
 
 (async () => {
     const browser = await puppeteer.launch({
-        headless: false, // 是否不显示浏览器
+        headless: true, // 是否不显示浏览器
         defaultViewport: {
             width: 1366,
             height: 600,
