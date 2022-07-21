@@ -66,10 +66,10 @@ const config = require('../config/index');
 
 process.on('uncaughtException', (err, origin) => {
     const errMsg = `uncaughtException 全局异常\n捕获的异常：${err}\n异常的来源：${origin}`;
-    notify.error(errMsg, startTime);
+    console.log(errMsg);
 });
 
 process.on('unhandledRejection', (err, origin) => {
     const errMsg = `unhandledRejection Promise未绑定异常\n捕获的异常：${err}\n异常的来源：${origin}`;
-    notify.error(errMsg, startTime);
+    console.log(errMsg)
 });
