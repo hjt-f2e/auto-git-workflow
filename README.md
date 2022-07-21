@@ -29,12 +29,10 @@ npm run start
 config/user.js
 
 ```js
-const config = {
-    username: '',
-    password: ''
+module.exports = {
+    username: '***',
+    password: '***'
 };
-
-module.exports = config;
 ```
 
 - 修改配置
