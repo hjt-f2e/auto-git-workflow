@@ -11,7 +11,7 @@ module.exports = {
     // 创建的分支名
     branchName: 'release-v11.26.0',
     // 是否自动pullrequest到release
-    isBuildPRtoRelease: true,
+    isBuildPRtoRelease: false,
     // 是否自动pullrequest到master
     isBuildPRtoMaster: false,
     // 自动提pr的版本号，develop-v -> release-v，release-v -> master
