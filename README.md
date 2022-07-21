@@ -29,6 +29,7 @@ npm run start
 config/user.js
 
 ```js
+// gitee的登录账号密码
 module.exports = {
     username: '***',
     password: '***'
