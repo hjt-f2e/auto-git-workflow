@@ -9,11 +9,11 @@ module.exports = {
     // 是否创建分支
     isCreateBranch: false,
     // 创建的分支名
-    branchName: 'release-v11.26.0',
-    // 是否自动pullrequest到release
+    branchName: 'develop-v11.26.0',
+    // 是否自动创建 develop -> release 的 pullrequest
     isBuildPRtoRelease: false,
-    // 是否自动pullrequest到master
+    // 是否自动创建release -> master 的 pullrequest
     isBuildPRtoMaster: false,
-    // 自动提pr的版本号，develop-v -> release-v，release-v -> master
+    // 自动创建pullrequest的版本号，develop-v -> release-v，release-v -> master
     version: '11.26.0',
 }
