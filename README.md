@@ -10,6 +10,18 @@
 解决多项目批量创建pullrequest的繁琐操作问题
 ## 使用
 
+### npm
+
+```
+npm install
+```
+
+```
+npm run start
+```
+
+### pnpm
+
 ```
 npm i pnpm -g
 ```
